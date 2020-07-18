@@ -1,48 +1,76 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Jee Zhou Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">  
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Card Jee Zhou</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
-
 <body>
-
-<header>
-	<div class="wrapper">
-		<a href="#" id="logo">Jee Zhou</a>
-
-		<nav>
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
-</header>
-
-<div id="container" class="wrapper">
-	<div id="content" class="module">
-		<h1>About Me</h1>
-	
-		<img src="assets/images/profilepic.jpeg" width="200" class="baby">
-
-		<p>My name is Jee Zhou and I'm excited to start my new profession as a coder.  I am currently enrolled in a Coding Bootcamp at Northwestern University. My background is in Math and Education and I believe the skills I acquired in those fields will propel me to being a competent coder.</p>
-
-	</div>
-
-	<div id="social" class="module">
-		<h2>Connect with Me</h2>
-
-		<a href="https://github.com/jeewhiz113?tab=repositories"><img src="assets/images/github.png"></a>
-		<a href="https://www.linkedin.com/in/jee-zhou-30592719b"><img src="assets/images/linkedin.png"></a>
-		<a href=""><img src="assets/images/resume.jpeg"></a>
-	</div>
-</div>
-	<footer> &copy; 2020 Jee Zhou</footer>
-		
+    <div class="card">
+        <div class="card-header">
+            <img src="./assets/images/self.jpeg" alt="Profile Image" class="profile-img">
+        </div>
+        <div class="card-body">
+            <p class="full-name">Jee Zhou</p>
+            
+            <p class="city">Chicago</p>
+            <p class="phoneNumber">Phone: 703-223-2312</p>
+            <p class="desc">My name is Jee Zhou and I'm excited to start my new profession as a coder.  I am currently enrolled in a Coding Bootcamp at Northwestern University. My background is in Math and Education and I believe the skills I acquired in those fields will propel me to being a competent coder.</p>
+            
+                <p>Click on the buttons below to access my GitHub, LinkedIn and Resume: </p>
+                <p>
+                    <a href="https://github.com/jeewhiz113?tab=repositories" ><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+                    <a href="https://www.linkedin.com/in/jee-zhou-30592719b"><img src="https://img.icons8.com/cute-clipart/64/000000/linkedin.png"/></a>
+                    <a href=""><img src="https://img.icons8.com/fluent/48/000000/open-resume.png"/></a>
+                </p>
+            
+            <p>Selected Projects:</p>    
+            <div class="container">
+                <div class="row">
+                    <div class = "col-sm">
+                        <a href="https://jeewhiz113.github.io/project1/"><img src="assets/images/PlantMobile.png" width="100%" height="206" alt="Travel">
+                        <h5>Plant Mobile</h5></a>
+                    </div>
+                    
+                
+                    <div class="col-sm">
+                      <a href="https://boiling-spire-59356.herokuapp.com/"><img src="assets/images/StockTracker.png" width="100%" height="206" alt="Travel">
+                        <h5>Stock Tracker</h5></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class = "col-sm">
+                      <a href="https://still-dusk-20196.herokuapp.com/"><img src="assets/images/NoteTaker.png" width="100%" height="206" alt="Travel">
+                        <h5>Note Taker</h5></a>
+                    </div>
+                
+                    <div class = "col-sm">
+                      <a href="https://jeewhiz113.github.io/WeatherApp/"><img src="assets/images/WeatherDashBoard.png" width="100%" height="206" alt="Travel">
+                        <h5>Weather DashBoard</h5></a>
+                
+                    </div>
+                </div>
+                <div class="row">
+                    <div class = "col-sm">
+                      <a href="https://tranquil-river-50933.herokuapp.com/"><img src="assets/images/BurgerApp.png" width="100%" height="206" alt="Travel">
+                        <h5>Burger App</h5></a>
+                    </div>
+                    <div class = "col-sm">
+                      <a href="https://jeewhiz113.github.io/Homework5/"><img src="assets/images/DailyPlanner.png" width="100%" height="206" alt="Travel">
+                        <h5>Daily Planner</h5></a>
+                    </div>
+                </div>    
+        </div>
+        <div class="card-footer">
+            <div class="col vr">
+                <p><span class="count"> Jee Zhou 2020</span> </p>
+        </div>
+    </div>
 </body>
 </html>
